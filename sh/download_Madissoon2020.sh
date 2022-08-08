@@ -8,6 +8,6 @@ mkdir -p ${PROJECT}/rnaseq/raw/${EXPERIMENT}
 cd ${PROJECT}/rnaseq/raw/${EXPERIMENT}
 
 # get data from https://www.tissuestabilitycellatlas.org/
-wget 'https://cellgeni.cog.sanger.ac.uk/tissue-stability/tissue-stability/oesophagus_ts.rds'
-wget 'https://cellgeni.cog.sanger.ac.uk/tissue-stability/tissue-stability/lung_ts.rds'
-wget 'https://cellgeni.cog.sanger.ac.uk/tissue-stability/tissue-stability/spleen_ts.rds'
+wget 'https://cellgeni.cog.sanger.ac.uk/tissue-stability/oesophagus_ts.rds'
+wget 'https://cellgeni.cog.sanger.ac.uk/tissue-stability/lung_ts.rds'
+wget 'https://cellgeni.cog.sanger.ac.uk/tissue-stability/spleen_ts.rds'
