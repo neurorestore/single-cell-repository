@@ -2,7 +2,7 @@
 # GSE129578
 
 ## define your PROJECT directory
-PROJECT=${PROJECTS}single-cell-repository
+PROJECT=${PROJECTS}/single-cell-repository
 
 EXPERIMENT=McGinnis2019
 mkdir -p ${PROJECT}/rnaseq/raw/${EXPERIMENT}
